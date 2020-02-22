@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct Results: Codable, Equatable {
+struct Characters: Codable, Equatable {
     let id: Int
     let name: String
     let status: String
