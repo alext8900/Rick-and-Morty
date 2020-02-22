@@ -23,7 +23,7 @@ enum NetworkError: Error {
 }
 
 struct CharacterModelController {
-    let characters: Characters
+    let characters: [Characters] = []
     let baseURL = URL(string: "https://rickandmortyapi.com/api/character")!
     let images: [URL] = []
     
