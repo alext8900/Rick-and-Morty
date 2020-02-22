@@ -16,7 +16,7 @@ struct Characters: Codable, Equatable {
     let species: String
     let origin: [OriginInfo]
     let location: [LocationInfo]
-    let image: String
+    var image: String
 
     struct OriginInfo: Codable, Equatable {
         let origin: Origin
