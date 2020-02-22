@@ -9,14 +9,14 @@
 import Foundation
 import UIKit
 
-struct Results: Codable, Equatable {
+struct Characters: Codable, Equatable {
     let id: Int
     let name: String
     let status: String
     let species: String
     let origin: [OriginInfo]
     let location: [LocationInfo]
-    let image: String
+    var image: String
 
     struct OriginInfo: Codable, Equatable {
         let origin: Origin
