@@ -11,9 +11,9 @@ import UIKit
 private let reuseIdentifier = "Cell"
 
 class ResultsCollectionViewController: UICollectionViewController {
-    
+
     let characterController = CharacterModelController()
-    
+
     var characters: Characters! {
         didSet {
             collectionView.reloadData()
@@ -22,7 +22,6 @@ class ResultsCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -50,7 +49,6 @@ class ResultsCollectionViewController: UICollectionViewController {
         return characterController.characters.count
     }
 
-
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
         return 0
@@ -58,9 +56,9 @@ class ResultsCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
-    
+
         // Configure the cell
-    
+
         return cell
     }
 
