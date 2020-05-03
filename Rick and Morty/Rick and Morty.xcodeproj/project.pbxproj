@@ -12,7 +12,6 @@
 		1F0D108A245E8DDA00544E8E /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 1F0D1089245E8DDA00544E8E /* SwiftyJSON */; };
 		1F4183EF23FF8F1400E4F471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4183EE23FF8F1400E4F471 /* AppDelegate.swift */; };
 		1F4183F123FF8F1400E4F471 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4183F023FF8F1400E4F471 /* SceneDelegate.swift */; };
-		1F4183F623FF8F1400E4F471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4183F423FF8F1400E4F471 /* Main.storyboard */; };
 		1F4183F823FF8F1500E4F471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4183F723FF8F1500E4F471 /* Assets.xcassets */; };
 		1F4183FB23FF8F1500E4F471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4183F923FF8F1500E4F471 /* LaunchScreen.storyboard */; };
 		1FB425A4245E9A2900D34A84 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB425A3245E9A2900D34A84 /* Character.swift */; };
@@ -26,14 +25,15 @@
 		1FB425B5245EB15E00D34A84 /* CharacterListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB425B4245EB15E00D34A84 /* CharacterListTableViewCell.swift */; };
 		1FB425B7245EB1AE00D34A84 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB425B6245EB1AE00D34A84 /* NetworkManager.swift */; };
 		1FB425B9245EB1FA00D34A84 /* CharacterDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB425B8245EB1FA00D34A84 /* CharacterDetailsViewController.xib */; };
-		1FB493452400DB7200E5C972 /* CharacterModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB493442400DB7200E5C972 /* CharacterModelController.swift */; };
+		1FB425BB245EB44400D34A84 /* CharacterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB425BA245EB44400D34A84 /* CharacterDetailsViewController.swift */; };
+		1FB425BE245EB7CE00D34A84 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1FB425BD245EB7CE00D34A84 /* SDWebImage */; };
+		1FB425C0245EB7CE00D34A84 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1FB425BF245EB7CE00D34A84 /* SDWebImageMapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F4183EB23FF8F1400E4F471 /* Rick and Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick and Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4183EE23FF8F1400E4F471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F4183F023FF8F1400E4F471 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F4183F523FF8F1400E4F471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F4183F723FF8F1500E4F471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F4183FA23FF8F1500E4F471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F4183FC23FF8F1500E4F471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		1FB425B4245EB15E00D34A84 /* CharacterListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListTableViewCell.swift; sourceTree = "<group>"; };
 		1FB425B6245EB1AE00D34A84 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1FB425B8245EB1FA00D34A84 /* CharacterDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterDetailsViewController.xib; sourceTree = "<group>"; };
-		1FB493442400DB7200E5C972 /* CharacterModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModelController.swift; sourceTree = "<group>"; };
+		1FB425BA245EB44400D34A84 /* CharacterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F0D108A245E8DDA00544E8E /* SwiftyJSON in Frameworks */,
+				1FB425C0245EB7CE00D34A84 /* SDWebImageMapKit in Frameworks */,
 				1F0D1082245E41E000544E8E /* rick-morty-swift-api in Frameworks */,
+				1FB425BE245EB7CE00D34A84 /* SDWebImage in Frameworks */,
 				1F0D1087245E8D8800544E8E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,9 +111,9 @@
 			isa = PBXGroup;
 			children = (
 				1FB425A3245E9A2900D34A84 /* Character.swift */,
-				1FB493442400DB7200E5C972 /* CharacterModelController.swift */,
 				1FB425A5245EAA2300D34A84 /* CharacterConverter.swift */,
 				1FB425A7245EACAF00D34A84 /* CharacterDetailViewModel.swift */,
+				1FB425BA245EB44400D34A84 /* CharacterDetailsViewController.swift */,
 				1FB425B8245EB1FA00D34A84 /* CharacterDetailsViewController.xib */,
 				1FB425AB245EB08400D34A84 /* CharacterList */,
 			);
@@ -123,7 +125,6 @@
 			children = (
 				1F4183F023FF8F1400E4F471 /* SceneDelegate.swift */,
 				1F4183EE23FF8F1400E4F471 /* AppDelegate.swift */,
-				1F4183F423FF8F1400E4F471 /* Main.storyboard */,
 				1F4183F923FF8F1500E4F471 /* LaunchScreen.storyboard */,
 				1F4183F723FF8F1500E4F471 /* Assets.xcassets */,
 				1F4183FC23FF8F1500E4F471 /* Info.plist */,
@@ -160,6 +161,8 @@
 				1F0D1081245E41E000544E8E /* rick-morty-swift-api */,
 				1F0D1086245E8D8800544E8E /* Alamofire */,
 				1F0D1089245E8DDA00544E8E /* SwiftyJSON */,
+				1FB425BD245EB7CE00D34A84 /* SDWebImage */,
+				1FB425BF245EB7CE00D34A84 /* SDWebImageMapKit */,
 			);
 			productName = "Rick and Morty";
 			productReference = 1F4183EB23FF8F1400E4F471 /* Rick and Morty.app */;
@@ -193,6 +196,7 @@
 				1F0D1080245E41E000544E8E /* XCRemoteSwiftPackageReference "rick-morty-swift-api" */,
 				1F0D1085245E8D8800544E8E /* XCRemoteSwiftPackageReference "Alamofire" */,
 				1F0D1088245E8DDA00544E8E /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				1FB425BC245EB7CE00D34A84 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 1F4183EC23FF8F1400E4F471 /* Products */;
 			projectDirPath = "";
@@ -213,7 +217,6 @@
 				1F4183F823FF8F1500E4F471 /* Assets.xcassets in Resources */,
 				1FB425B9245EB1FA00D34A84 /* CharacterDetailsViewController.xib in Resources */,
 				1FB425AF245EB0B800D34A84 /* CharacterListTableViewCell.xib in Resources */,
-				1F4183F623FF8F1400E4F471 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,9 +229,9 @@
 			files = (
 				1FB425A6245EAA2300D34A84 /* CharacterConverter.swift in Sources */,
 				1FB425B5245EB15E00D34A84 /* CharacterListTableViewCell.swift in Sources */,
-				1FB493452400DB7200E5C972 /* CharacterModelController.swift in Sources */,
 				1FB425B3245EB13D00D34A84 /* CharacterListViewController.swift in Sources */,
 				1FB425B7245EB1AE00D34A84 /* NetworkManager.swift in Sources */,
+				1FB425BB245EB44400D34A84 /* CharacterDetailsViewController.swift in Sources */,
 				1FB425A4245E9A2900D34A84 /* Character.swift in Sources */,
 				1FB425B1245EB10800D34A84 /* CharacterListRouter.swift in Sources */,
 				1F4183EF23FF8F1400E4F471 /* AppDelegate.swift in Sources */,
@@ -241,14 +244,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1F4183F423FF8F1400E4F471 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F4183F523FF8F1400E4F471 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F4183F923FF8F1500E4F471 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -458,6 +453,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		1FB425BC245EB7CE00D34A84 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -475,6 +478,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1F0D1088245E8DDA00544E8E /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
+		};
+		1FB425BD245EB7CE00D34A84 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FB425BC245EB7CE00D34A84 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		1FB425BF245EB7CE00D34A84 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FB425BC245EB7CE00D34A84 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
