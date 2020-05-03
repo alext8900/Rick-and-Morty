@@ -7,3 +7,10 @@
 //
 
 import Foundation
+final class CharactersDetailViewModel {
+    let character: CharactersDetailsViewState
+    
+    init(character: Characters) {
+        self.character = CharacterConverter.convertToDetails(from: character)
+    }
+}
